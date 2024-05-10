@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 2%;
+    cursor: pointer;
+    color:#00b092;
+    font-weight: bold;
+    font-size: medium;
+}
+.navbar img{
+    height: 70px;
+    width: 130px;
+    margin-left: 2%;
+    margin-top: -25px;
+}
+.navbar select{
+    background-color: none;
+    border: none;
+    margin-top: -25px;
+    color: #00b092;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+.navbar button{
+    background-color:#00b092;
+    margin-right: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+}
+.navbar button:hover{
+    background-color: black;
+}
+.section01{
+    background: #00b092;
+    height: 500px;
+}
+.section1 img{
+    height: 400px;
+    width: 650px;
+    padding-left: 50%;
+    padding-top: 2%;
+}
+.section2{
+    position: absolute;
+    margin-top: -17%;
+    margin-left: 7%;
+}
+.section2 p{
+    padding-top: 5%;
+}
+.section2 button{
+    margin-top: 12%;
+    margin-left: 22%;
+    padding: 20px;
+    background-color:white;
+    color:#00b092;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+} 
+.section2 button:hover{
+    background-color:black;
+}
+
+.section02{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #00b092;
+}
+.section3{
+    padding-left: 35%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    top: 100px;
+    transition: 1s;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.container1:hover{
+    transform: scale(1.1);
+}
+
+.container1{
+    height: 330px;
+    width: 300px;
+    background-color: #00b092;
+    border-radius: 20px;
+}
+.container1 button{
+    padding: 8px 15px 8px 15px;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size:medium;
+    border-radius: 5px;
+}
+.container1 img{
+    height: 150px;
+    width: 150px;
+    margin-left: 20%;
+}
+.container1 h1{
+    text-align: center;
+}
+.container1 p{
+    text-align: center;
+    margin-top: 2%;
+}
+.section03{
+    background-color: #00b092;
+    height: 870px;
+    width: 100%;
+}
+.section4 h1{
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+.section5 img{
+    height: 40%;
+    width: 35%;
+    margin-left: 60%;
+    margin-top: 8%;
+}
+.section6 {
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    top: 173%;
+    left: 5%;
+    text-align: center;
+}
+.section6 p{
+    padding-top: 3%;
+}
+.section7 {
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    top: 173%;
+    text-align: center;
+}
+.section7 p{
+    padding-top: 3%;
+}
+.section8 {
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    left: 5%;
+    top: 205%;
+    text-align: center;
+}
+.section8 p{
+    padding-top: 3%;
+}
+.section9 {
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    top: 205%;
+    text-align: center;
+}
+.section9 p{
+    padding-top: 3%;
+}
+.section10 {
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    left: 17%;
+    top:237%;
+    text-align: center;
+}
+.section10 p{
+    padding-top: 3%;
+}
+.section12{
+    height: 200px;
+    width: 520px;
+    margin-left: 55%;
+    margin-top: -25%;
+    text-align: center;
+    padding-top: 1%;
+}
+.section12 p{
+    margin-top: 5%;
+}
+.section12 button{
+    padding:15px 30px 15px 30px;
+    margin-top:10%;
+    background-color:#00b092;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.section12 button:hover{
+    background-color: black;
+}
+.section06{
+    margin-top: 12%;
+    height: 600px;
+    width: 100%;
+    background-color: #00b092;
+}
+.section06 h1{
+    text-align: center;
+    padding-top: 3%;
+}
+.section14 {
+    background-color: white;
+    height: 40px;
+    width: 460px;
+    margin-top: 3%;
+    margin-left: 15%;
+    font-size: large;
+    cursor: pointer;
+}
+.section14 p{
+    color: black;
+}
+.section15 {
+    background-color: white;
+    height: 40px;
+    width: 460px;
+    margin-top: -43px;
+    margin-left: 55%;
+    font-size: large;
+    justify-content: center;
+    cursor: pointer;
+}
+.section15 p{
+    padding-top: 2%;
+    color: black;
+}
+.section16 {
+    background-color: white;
+    height: 40px;
+    width: 460px;
+    margin-top: 3%;
+    margin-left: 15%;
+    font-size: large;
+    cursor: pointer;
+}
+.section16 p{
+    padding-top: 2%;
+    color: black;
+}
+.section17 {
+    background-color: white;
+    height: 40px;
+    width: 460px;
+    margin-top: -39px;
+    margin-left: 55%;
+    font-size: large;
+    cursor: pointer;
+}
+.section17 p{
+    padding-top: 2%;
+    color: black;
+}
+.section18 {
+    background-color: white;
+    height: 40px;
+    width: 460px;
+    margin-top: 3%;
+    margin-left: 15%;
+    font-size: large;
+    cursor: pointer;
+}
+.section18 p{
+    padding-top: 2%;
+    color: black;
+}
+.section19 {
+    background-color: white;
+    height: 40px;
+    width: 460px;
+    margin-top: -43px;
+    margin-left: 55%;
+    font-size: large;
+    cursor: pointer;
+}
+.section19 p{
+    padding-top: 2%;
+    color: black;
+}
+.section21{
+    height: 45px;
+    width: 350px;
+    background-color: rgb(1, 142, 1);
+    margin-left: 27%;
+    margin-top: 5%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.section22{
+    height: 45px;
+    width: 350px;
+    background-color: white;
+    margin-left: 53%;
+    margin-top: -3%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.section07{
+    margin-top: 3%;
+}
+.section23 h1{
+    text-align: center;
+}
+.section24{
+    height: 300px;
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+.section25{
+    height: 300px;
+    width: 200px;
+    margin-left: 75%;
+    margin-top: -20%;
+    text-align: center;
+}
+.section26{
+    height: 200px;
+    width: 450px;
+    background-color: #00b092;
+    margin-left: 35%;
+    margin-top: -290px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.section26 p{
+    padding-top: 5%;
+}
+.section26 h2{
+    padding-top: 5%;
+}
+.section08{
+    margin-top: 7%;
+    text-align: center;
+}
+.section27 button{
+    padding: 15px 40px 15px 40px;
+    margin-top: 4%;
+    background-color: #00b092;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.section27 button:hover{
+    background-color: black;
+}
+.section09{
+    width: 97%;
+    height:370px;
+    background-color: #00b092;
+    margin-top: 5%;
+    padding-left: 3%;
+    padding-top: 2%;
+    color: white;
+}
+.section28{
+    height: 100px;
+    width: 25%;
+}
+.section28 p{
+    margin-top: 5%;
+}
+.section29{
+    height: 100px;
+    width: 20%;
+    margin-top: -100px;
+    margin-left: 30%;
+}
+.section29 p{
+    margin-top: 3%;
+}
+.section30{
+    height: 100px;
+    width: 25%;
+    margin-left:45%;
+    margin-top: -100px;
+}
+.section30 p{
+    margin-top: 5%;
+}
+.section30 h2{
+    margin-bottom: 3%;
+}
+.section31{
+    height: 100px;
+    width: 25%;
+    margin-left: 75%;
+    margin-top: -100px;
+}
+.section31 p{
+    color: black;
+    cursor: pointer;
+    margin-top: 3%;
+}
+.section31 img{
+    margin-top: 3%;
+    padding: 1%;
+}
+.section32{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.section33{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+.section33 p{
+    padding-top: 2px;
+}
